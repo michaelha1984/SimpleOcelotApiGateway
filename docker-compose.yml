@@ -11,6 +11,6 @@ services:
     image: ${DOCKER_REGISTRY-}whetherforecastapi
     build:
       context: .
-      dockerfile: WhetherForecast.API/Dockerfile
+      dockerfile: Services/WhetherForecast.API/Dockerfile
     ports:
       - "7002:443"
