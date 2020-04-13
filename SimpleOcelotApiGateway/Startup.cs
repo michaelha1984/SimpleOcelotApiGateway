@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
-namespace SImpleOcelotApiGateway
+namespace SimpleOcelotApiGateway
 {
     public class Startup
     {
