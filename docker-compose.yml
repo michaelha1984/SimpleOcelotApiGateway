@@ -6,8 +6,7 @@ services:
     build:
       context: .
       dockerfile: Services/WeatherForecast.API/Dockerfile
-    ports:
-      - "7001:443"
+    
   whetherforecast.api:
     image: ${DOCKER_REGISTRY-}whetherforecastapi
     build:
