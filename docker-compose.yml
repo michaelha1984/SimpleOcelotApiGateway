@@ -8,3 +8,10 @@ services:
       dockerfile: Services/WeatherForecast.API/Dockerfile
     ports:
       - "7001:443"
+  whetherforecast.api:
+    image: ${DOCKER_REGISTRY-}whetherforecastapi
+    build:
+      context: .
+      dockerfile: WhetherForecast.API/Dockerfile
+    ports:
+      - "7002:443"
